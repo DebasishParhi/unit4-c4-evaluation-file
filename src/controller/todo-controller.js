@@ -1,7 +1,7 @@
 const express=require("express")
 const res = require("express/lib/response")
 
-const Todo=require()
+const Todo=require("../models/todo-model")
   const router=express.Router()
 
   router.post("", async(req,res)=>{
